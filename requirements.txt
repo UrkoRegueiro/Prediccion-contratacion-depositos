@@ -1,0 +1,12 @@
+joblib
+pickle-mixin
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+scikit-learn==1.3.2
+imbalanced-learn
+xgboost
+python-dotenv
+mysql-connector-python
