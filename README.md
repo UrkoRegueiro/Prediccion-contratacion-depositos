@@ -107,6 +107,40 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
   </summary>
   <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.1.<ins><strong> Valores duplicados </strong></ins></h3>
   <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.2.<ins><strong> Porcentaje de valores nulos por variable </strong></ins></h3>
+  <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.3.<ins><strong> Balance de clases </strong></ins></h3>
+  <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.4.<ins><strong> Exploración de variables categoricas </strong></ins></h3>
+  <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.5.<ins><strong> Exploración de variables numéricas </strong></ins></h3>
+</details>
+
+<details close>  
+  <summary>
+    <h2><ins><strong> 5. Análisis exploratorio de datos por grupo </strong></ins></h2>
+  </summary>
+  <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5.1.<ins><strong> Preparación del dataset </strong></ins></h3>
+  <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5.2.<ins><strong> Análisis de la tasa de éxito </strong></ins></h3>
+  <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5.3.<ins><strong> Análisis de los perfiles por grupo </strong></ins></h3>
+  <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5.3.1.<ins><strong> Distribución de saldos por grupo </strong></ins></h4>
+  <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5.3.2.<ins><strong> Adultos </strong></ins></h4>
+  <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5.3.3.<ins><strong> Jovenes </strong></ins></h4>
+  <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5.3.4.<ins><strong> Mayores </strong></ins></h4>
+</details>
+
+<details close>  
+  <summary>
+    <h2><ins><strong> 6. Modelaje </strong></ins></h2>
+  </summary>
+  <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.1.<ins><strong> Tratamiento de valores nulos </strong></ins></h3>
+  <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.2.<ins><strong> Tratamiento de outliers </strong></ins></h3>
+  <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.3.<ins><strong> Transformación de columnas </strong></ins></h3>
+  <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.3.1.<ins><strong> Limpieza columnas </strong></ins></h4>
+  <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.3.2.<ins><strong> Encoding </strong></ins></h4>
+  <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.3.3.<ins><strong> Eliminación de columnas </strong></ins></h4>
+  <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.4.<ins><strong> Balance de clases </strong></ins></h3>
+  <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.5.<ins><strong> Selección de Modelo </strong></ins></h3>
+  <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.5.1.<ins><strong> Cross Validation </strong></ins></h4>
+  <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.6.<ins><strong> Tuning GradientBoostingClassifier </strong></ins></h3>
+  <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.6.1.<ins><strong> Feature importance </strong></ins></h4>
+  <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.7.<ins><strong> Resultados y Conclusiones </strong></ins></h3>
 </details>
 
 
