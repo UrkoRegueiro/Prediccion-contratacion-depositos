@@ -95,7 +95,7 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
   <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.1.<ins><strong> Procesamiento inicial de datos </strong></ins></h3>
   En este subapartado se realizan los siguientes cambios:
 
-- Se descarta la columna ID por no ser relevante para el estudio.
+- Se descarta la columna `ID` por no ser relevante para el estudio.
 - Se convierte la columna `fecha_contacto` a `datetime`.
 - Se convierten las columnas booleanas a `int`.
   
