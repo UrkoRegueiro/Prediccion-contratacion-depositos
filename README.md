@@ -114,7 +114,8 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· `tipo_contacto`: 28.80% de valores nulos.<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· `resultado_campanas_anteriores`: 81.70% de valores nulos.<br>
   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Esto será relevante a la hora de procesar los datos para el modelo predictivo. Se realizará en secciones posteriores el tratamiento pertinente.
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Esto será relevante a la hora de procesar los datos para el modelo predictivo. Se realizará en secciones posteriores el tratamiento<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pertinente.
   <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.3.<ins><strong> Balance de clases </strong></ins></h3>
 
   <div align="center">
@@ -123,7 +124,8 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
 
   </div>
   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Podemos observar como el `88% de los clientes que han participado` en la campaña telefónica `no han contratado un deposito` a plazo fijo.
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Podemos observar como el `88% de los clientes que han participado` en la campaña telefónica `no han contratado un deposito` a plazo<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fijo.
   
   <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.4.<ins><strong> Exploración de variables categoricas </strong></ins></h3>
   <div align="center">
@@ -134,10 +136,10 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
   
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Se observa que:<br>
   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· La `mayor parte de los clientes` contactados son trabajadores: `blue-collar, management y technician`, siendo los management el que presenta mayor porcentaje de contratación entre ellos con un 24.5%.<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· La `mayor parte de los clientes` contactados son trabajadores: `blue-collar, management y technician`, siendo los management     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; el que presenta mayor porcentaje de contratación entre ellos con un 24.5%.<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· En cuanto al estado civil `predominan` los `clientes casados`, siendo estos los que más contratan en su grupo, con un 52%.<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· El `nivel de estudios mayoritario` es `secundaria/superiores` siendo el 49% de ellos contratantes.<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· De los clientes contactados solo el 18% contrató un deposito en la campaña anterior. Observamos como se han perdido clientes que contrataron en la campaña anterior pero se han ganado clientes que no habían contratado o estaban indecisos en la anterior.<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· De los clientes contactados solo el 18% contrató un deposito en la campaña anterior. Observamos como se han perdido clientes     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; que contrataron en la campaña anterior pero se han ganado clientes que no habían contratado o estaban indecisos en la anterior.<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· La mayor parte de los contactos han sido por móvil.
   
   <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.5.<ins><strong> Exploración de variables numéricas </strong></ins></h3>
