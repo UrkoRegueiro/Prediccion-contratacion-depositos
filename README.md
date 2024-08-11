@@ -156,8 +156,11 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· El `1.80%` de los clientes contactados `tiene deuda`.<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· El `55.60%` de los clientes es `propietario de al menos un inmueble`.<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· El `16%` de los clientes `tiene contratado un prestamo`.<br>
+  <br>
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ins>Investiguemos más en detalle cada una de las variables</ins>:<br>
+
+  ---
   
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• `Edad`
 
@@ -170,6 +173,8 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Se observa que la `edad` de la `mayor parte` de los clientes se encuentra `entre los 25 y los 60 años`.<br>
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Podemos apreciar en el boxplot del centro como hay una `menor edad` en clientes que `contratan` con respecto a los que no.
+
+  ---
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• `Saldo`
 
@@ -194,8 +199,24 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
   </div>
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Podemos observar como los `clientes sin saldo contratan menos` que los que tienen.
-  
 
+  ---
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• `Duración`
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aqui exploraremos la duración en segundos de las últimas llamadas (donde se gana o pierde un cliente).
+
+  <div align="center">
+
+  ![](https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/distr_duracion.png)
+
+  </div>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Se observa con claridad como los `clientes que contratan` han pasado `más tiempo en la última llamada`.
+
+  ---
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• `Campaña`
   
   
 </details>
