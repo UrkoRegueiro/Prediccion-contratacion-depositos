@@ -93,15 +93,16 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
   | target                        | Variable booleana que indica si el cliente ha contratado el producto para la actual campaña: 0-NO, 1-SÍ | Int    |
 
   <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.1.<ins><strong> Procesamiento inicial de datos </strong></ins></h3>
-  En este subapartado se realizan los siguientes cambios:
 
-- Se descarta la columna `ID` por no ser relevante para el estudio.
-- Se convierte la columna `fecha_contacto` a `datetime`.
-- Se convierten las columnas booleanas a `int`.
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En este subapartado se realizan los siguientes cambios:<br>
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· Se descarta la columna `ID` por no ser relevante para el estudio.<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· Se convierte la columna `fecha_contacto` a `datetime`.<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· Se convierten las columnas booleanas a `int`.<br>
   
 </details>
 
-<details open>  
+<details close>  
   <summary>
     <h2><ins><strong> 4. Análisis exploratorio de datos </strong></ins></h2>
   </summary>
@@ -279,7 +280,7 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
 
   <div align="center">
 
-  ![](https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/disp.png)
+  ![](https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/dispersion.png)
 
   </div>
 
@@ -296,16 +297,83 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· Parece que jovenes y mayores contratan más rapidamente tras contacto que adultos.
 
   
-  
-  
 </details>
 
-<details close>  
+<details open>  
   <summary>
     <h2><ins><strong> 5. Análisis exploratorio de datos por grupo </strong></ins></h2>
   </summary>
+
+  En esta sección analizaremos en detalle que tipo de clientes contratan los depositos a plazo fijo. Esto nos permitirá hacernos una idea del perfil de estos clientes para seleccionarlos en futuras campañas y ahorrar       costes.
+  
+  Para ello vamos a centrar el análisis en los grupo de edad:
+  -  Estudiaremos que grupo proporciona mayores ingresos y la tasa de éxito de cada uno.
+  -  Analizaremos cada grupo por separado, identificando los diferentes perfiles.
+  -  Realizaremos un análisis de clustering para determinar si encontramos similitudes con el resultado del punto anterior, ganando confianza en los grupos de interes identificados.
+
   <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5.1.<ins><strong> Preparación del dataset </strong></ins></h3>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vamos a visualizar el histograma del número de contactos y clientes para seleccionar los intervalos de edad:
+
+  <div align="center">
+
+  ![](https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/int_edad.png)
+
+  </div>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Observamos como se dirige un esfuerzo en captar clientes en edades comprendidas entre 25 y 60 años estableciendo un mayor número
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;de contactos para tratar de conseguir contrataciones. Esto es lógico ya que la mayor parte de la población española activa está en este
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;grupo y por tanto ha de intentarse máximizar el número de clientes en este grupo más extenso y diverso.
+
+  <div align="center">
+
+  <img src="https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/grupos_edad.png" alt="Instituto Nacional de Estadística" width="700">
+
+  <p><em>Fuente: Instituto Nacional de Estadística</em></p>
+
+  </div>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Estudiaremos en los apartados siguientes las carácteristicas en cada grupo, para ello se establecen los siguientes criterios de
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;diferenciación de grupos:<br>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· `Jovenes`: edades menores o iguales a 25 años.<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· `Adultos`: edades comprendidas entre 26 y 59 años.<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· `Mayores`: edades mayores o iguales a 60 años.<br>
+
+  
   <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5.2.<ins><strong> Análisis de la tasa de éxito </strong></ins></h3>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comenzaremos por visualizar la cantidad de clientes que tenemos en cada grupo:
+
+  <div align="center">
+
+  ![](https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/clientes_grupo.png)
+
+  </div>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La mayor parte de los clientes en esta campaña pertenece al grupo `adulto` seguido del grupo `joven` y finalmente `mayor`.
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Veamos ahora el porcentaje de éxito total(izquierda) y proporcional(derecha) en estos grupos:
+
+  <div align="center">
+
+  ![](https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/porcentaje_exito.png)
+
+  </div>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Definimos la tasa de exito total como el porcentaje de éxito que ha tenido cada grupo en la campaña. Del gráfico de la izquierda anterior
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;observamos que:
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· El `grupo de adultos` presenta la `mayor cantidad de contrataciones` con un 9.66%, esto se debe a que son el grupo mayoritario.<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· El grupo de jovenes y mayores sigue al anterior con una tasa de exito del 0.71% y 1.34% respectivamente.<br>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A pesar de que el `grupo de adultos` genere los mayores ingresos, dentro de su propio grupo es el que presenta `la menor tasa de`
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`éxito`, siendo esta de un `10%`. En   cuanto al resto de grupos encontramos en los `jovenes` una tasa de éxito del `24%` y en el de `mayores`
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;del `34%`.
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para hacernos una idea de los perfiles contratantes en cada grupo realizaremos un análisis de cada uno de ellos.
+
+  
   <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5.3.<ins><strong> Análisis de los perfiles por grupo </strong></ins></h3>
   <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5.3.1.<ins><strong> Distribución de saldos por grupo </strong></ins></h4>
   <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5.3.2.<ins><strong> Adultos </strong></ins></h4>
