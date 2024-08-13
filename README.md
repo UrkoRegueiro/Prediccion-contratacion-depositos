@@ -299,7 +299,7 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
   
 </details>
 
-<details open>  
+<details close>  
   <summary>
     <h2><ins><strong> 5. Análisis exploratorio de datos por grupo </strong></ins></h2>
   </summary>
@@ -357,7 +357,7 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
 
   <div align="center">
 
-  ![](https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/porcentaje_exito.png)
+  <img src="https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/porcentaje_exito.png" alt="exito" width="89%">
 
   </div>
 
@@ -396,31 +396,242 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
 
   <div align="center">
 
-  ![](https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/adultos.png)
+  <img src="https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/adultos.png" alt="adultos" width="82%">
 
   </div>
 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;El principal perfil contratante para el grupo de adultos es aquel que no tiene deuda, no es propietario de inmueble    y no tiene
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prestamos. Observamos también un perfil similar que contrata, el que es propietario de un inmueble y no tiene ni       deuda ni
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prestamo.
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En cuanto al trabajo observamos que los perfiles que más contratan son gerentes, técnicos, obreros y administrativos.
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En referencia a la educación, principalmente tenemos perfiles con secundaria/superiores y universitarios entre los     que contratan.
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por último analizamos a los clientes que participaron en la campaña anterior, de los que no contrataron ahora hay un   porcentaje que
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sí lo ha hecho. En cuanto a los que contrataron un deposito la última vez, ahora solo unos pocos no lo han vuelto a    contratar. Los
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;catalogados como "otro" pudieron estar indecisos, de estos ahora han contratado un pequeño porcentaje.
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exploremos ahora las posibles correlaciones entre nuestras variables en este grupo:
+
+  <div align="center">
+
+  <img src="https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/corr_adultos.png" alt="correlacion adultos" width="82%">
+  
+  </div>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Existe una correlación, aunque no fuerte, entre la duración de la última llamada y que contraten un depósito. Mayor    tiempo de
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;duración se correlaciona con que se contrate un depósito.
+
   
   <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5.3.3.<ins><strong> Jovenes </strong></ins></h4>
+
+  <div align="center">
+
+  <img src="https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/jovenes.png" alt="jovenes" width="82%">
+
+  </div>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;El principal perfil contratante para el grupo de jovenes es aquel que no tiene deuda, no es propietario de inmueble    y no tiene
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prestamos.
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En cuanto al trabajo observamos que la mayor parte de los perfiles son estudiantes y obreros, siendo los que más       contratan los
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;estudiantes.
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En referencia a la educación, al igual que los adultos, tenemos perfiles con secundaria/superiores y universitarios    entre los que
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;contratan, quedando unos pocos con primaria que lo hacen.
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Observamos un diferencia significativa entre los que tienen inmuebles y los que no, siendo estos últimos los más       propensos a
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;contratar un deposito.
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por último analizamos a los clientes que participaron en la campaña anterior, en este caso observamos un aumento en    el número de
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;contrataciones en la última campaña.
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exploremos, al igual que en el caso anterior, las posibles correlaciones entre nuestras variables en este grupo:
+
+  <div align="center">
+
+  <img src="https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/corr_jovenes.png" alt="correlacion jovenes" width="82%">
+  
+  </div>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Al igual que antes existe una correlación entre la duración de la última llamada y que contraten un depósito. En       este grupo también
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;se observa una correlación negativa entre la vivienda y que contraten, traduciéndose en que menor vivienda tiene       mayor
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;probabilidad de contratación.
+
+  
   <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5.3.4.<ins><strong> Mayores </strong></ins></h4>
+
+  <div align="center">
+
+  <img src="https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/mayores.png" alt="mayores" width="82%">
+
+  </div>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por último tenemos el grupo de mayores, siendo en este el principal perfil contratante aquel que no tiene deuda, no    es propietario
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;de inmueble y no tiene prestamos.
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En cuanto al trabajo observamos que la gran parte de los perfiles son jubilados y algunos pocos gerentes, siendo los   que más
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;contratan los jubilados.
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En referencia a la educación, cambia con respecto a los otros grupos, teniendo perfiles con secundaria/superiores,     primaria y en
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;menor número universitarios. En este grupo los tres perfiles educativos tienen tendencia a contratar depositos.
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Observamos un diferencia significativa entre los que tienen inmuebles y los que no, siendo estos últimos los más       propensos a
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;contratar un deposito.
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por último analizamos a los clientes que participaron en la campaña anterior y, al igual que en el grupo de jovenes,   observamos un
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;aumento en el número de contrataciones en la última campaña.
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A continuación exploraremos las posibles correlaciones entre nuestras variables en este grupo:
+
+  <div align="center">
+
+  <img src="https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/corr_mayores.png" alt="correlacion mayores" width="82%">
+  
+  </div>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En este grupo aparecen correlaciones positivas leves tales como:
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· `Edad`: A mayor edad parece haber mayor probabilidad de contratación.<br>
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· `Duración`: Al igual que en los casos anteriores, la duración de la llamada es signo de mayor probabilidad de contratación.
+
+  
 </details>
 
-<details close>  
+<details open>  
   <summary>
     <h2><ins><strong> 6. Modelaje </strong></ins></h2>
   </summary>
+
+  Tras haber explorado los datos, vamos a construir un modelo de clasificación binaria que nos permita predecir que clientes de nuestro conjunto contratarán un depósito o no.
+
+  Para ello se ha preparado el dataset de tal forma que el modelo pueda procesarlo.
+
   <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.1.<ins><strong> Tratamiento de valores nulos </strong></ins></h3>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vamos a tratar solo la columna de "educacion" ya que las otras dos con valores nulos no las utilizaremos para nuestro análisis.
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por simplicidad hemos decidido crear una nueva categoría para los valores nulos en la columna `Educacion`: "desconocida". Se podría
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;haber abordado imputando valores con KNNImputer, buscando los vecinos más cercanos para asignarle un valor a eduación según
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;similitud.
+
   <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.2.<ins><strong> Tratamiento de outliers </strong></ins></h3>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dado que no se ve la necesidad de aplicar el método de Tukey, vamos a eliminar valores atipicos encontrados en el apartado 4 de
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nuestro análisis exploratorio para las siguientes variables filtrando:
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· `Saldo`: Se descartan los saldos mayores o iguales a 48000.<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· `Contactos anteriores`: Se descartan los valores mayores a 300.<br>
+
+
+  
   <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.3.<ins><strong> Transformación de columnas </strong></ins></h3>
   <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.3.1.<ins><strong> Limpieza columnas </strong></ins></h4>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Se corrigen errores de escritura en la columna `Educacion` con expresiones regulares.
+  
   <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.3.2.<ins><strong> Encoding </strong></ins></h4>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Se realiza un One Hot encoding a las columnas `Trabajo`, `Estado civil`, `Educacion`.
+  
   <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.3.3.<ins><strong> Eliminación de columnas </strong></ins></h4>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Se eliminan las columnas que no se utilizan: `tipo_contacto`, `resultado_campanas_anteriores`, `fecha_contacto`, `grupo_edad`.
+
   <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.4.<ins><strong> Balance de clases </strong></ins></h3>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Se crean unas pocas clases sintéticas mediante la técnica SMOTE para intentar que nuestro modelo no tienda demasiado hacia la clase
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mayoritaria.
+
+  
   <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.5.<ins><strong> Selección de Modelo </strong></ins></h3>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Se probaran los siguientes modelos de clasificación, escogiendo el que mejor redimiento obtenga tras las pruebas de validación cruzada:
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· `LogisticRegression`.<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· `GaussianNB`.<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· `KNeighborsClassifier`.<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· `NearestCentroid`.<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· `RandomForestClassifier`.<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· `AdaBoostClassifier`.<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· `GradientBoostingClassifier`.<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· `XGBClassifier`.<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· `HistGradientBoostingClassifier`.<br>
+  
   <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.5.1.<ins><strong> Cross Validation </strong></ins></h4>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para evaluar el rendimiento de nuestro modelo, emplearemos técnicas de validación cruzada. Esto implica dividir        nuestro conjunto
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;de datos en múltiples subconjuntos, entrenar el modelo en diferentes combinaciones de estos subconjuntos y evaluar su
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rendimiento. La validación cruzada ayuda a garantizar que nuestro modelo sea robusto y no se ajuste demasiado a los    datos de
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;entrenamiento. Se ha realizado un `stratified k-Fold con k=5` obteniendo los siguientes resultados:
+
+  <div align="center">
+
+  <img src="https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/k_fold.png" alt="cv" width="100%">
+  
+  </div> 
+  
+  
   <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.6.<ins><strong> Tuning GradientBoostingClassifier </strong></ins></h3>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Se obtienen los siguientes resultados tras la hiperparametricación del GBC:
+
+  <div align="center">
+
+  <img src="https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/resultados_GBC.png" alt="FI" width="100%">
+  
+  </div> 
   <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.6.1.<ins><strong> Feature importance </strong></ins></h4>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Estas son las columnas que tienen mayor importancia a la hora de predecir en nuestro modelo:
+
+  <div align="center">
+
+  <img src="https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/parametros_imp.png" alt="GBC" width="100%">
+  
+  </div> 
+  
   <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.7.<ins><strong> Resultados y Conclusiones </strong></ins></h3>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tras probar nuestro modelo entrenado en los datos de test se obtiene el siguiente rendimiento para un threshold de 0.85:
+
+  <div align="center">
+
+  <img src="https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/resultados_finales.png" alt="resultados" width="100%">
+  
+  </div>
+
+  <div align="center">
+  
+  | Accuracy | Precision | Recall |
+  |----------|-----------|--------|
+  | 0.829    | 0.383     | 0.835  |
+
+  </div>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En el caso que nos ocupa la métrica de interés es el recall. Esto se debe a que necesitamos captar la mayor cantidad de clientes que
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;contraten un deposito sacrificando precisión, es decir, que si no estamos seguros al 85% de que un cliente no va a contratar lo
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;clasificaremos como Éxito.
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En la matriz de confusión observamos que se han predicho 420 verdaderos positivos y 83 falsos negativos, obteniendo por tanto un
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;83.5% de recall.
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por último notar que nuestro modelo ha logrado aprender ya que predice mejor que un modelo de prueba, es decir, si ponemos el
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;threshold a 0.5 obtenemos un accuracy del 91% superando al modelo de prueba que sería de un 88%.
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para llevar esta solución a producción sería necesario integrar en el sistema de la entidad bancaria el flujo de transformación de datos
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;para la predicción. Esto se podría hacer en tiempo real conectado con la base de datos de clientes y transformando los datos obtenidos.
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;También sería necesario:
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·Un monitoreo del rendimiento del modelo por si fallase en algún momento.<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·Actualizar el modelo con cada campaña realizada.<br>
+
+  
+
+  
 </details>
 
 
