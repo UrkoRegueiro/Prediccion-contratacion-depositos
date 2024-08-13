@@ -29,7 +29,7 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
 ------------
 
 
-<details close>
+<details open>
   <summary>
     <h2><ins><strong> 1. Introducción </strong></ins></h2>
   </summary>
@@ -500,7 +500,7 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
   
 </details>
 
-<details open>  
+<details close>  
   <summary>
     <h2><ins><strong> 6. Modelaje </strong></ins></h2>
   </summary>
@@ -569,7 +569,7 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
 
   <div align="center">
 
-  <img src="https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/k_fold.png" alt="cv" width="100%">
+  <img src="https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/k_fold.png" alt="cv" width="45%">
   
   </div> 
   
@@ -580,7 +580,7 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
 
   <div align="center">
 
-  <img src="https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/resultados_GBC.png" alt="FI" width="100%">
+  <img src="https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/resultados_GBC.png" alt="GBC" width="45%">
   
   </div> 
   <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.6.1.<ins><strong> Feature importance </strong></ins></h4>
@@ -589,7 +589,7 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
 
   <div align="center">
 
-  <img src="https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/parametros_imp.png" alt="GBC" width="100%">
+  <img src="https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/parametros_imp.png" alt="FI" width="80%">
   
   </div> 
   
@@ -599,7 +599,7 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
 
   <div align="center">
 
-  <img src="https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/resultados_finales.png" alt="resultados" width="100%">
+  <img src="https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/resultados_finales.png" alt="resultados" width="85%">
   
   </div>
 
