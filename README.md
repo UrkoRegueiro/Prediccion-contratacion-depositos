@@ -16,7 +16,7 @@
 
 <h2>
   
-Para visualizar la versión detallada del presente proyecto véase: <br>
+Para visualizar el código implementado en el proyecto véase la versión completa: <br>
 
 <div align="center">
 
