@@ -52,7 +52,7 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
 
   - <u>**Explicación**</u> de los <u>**resultados**</u> obtenidos.
 
-  - ¿Cómo llevarías la solución desarrollada a producción y qué consideraciones tendrías en cuenta?
+  - ¿Cómo se llevaría la solución desarrollada a producción y qué consideraciones se tendrían en cuenta?
   
 </details>
 
@@ -361,6 +361,8 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
 
   </div>
 
+  <br>
+
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Definimos la tasa de exito total como el porcentaje de éxito que ha tenido cada grupo en la campaña. Del gráfico de la izquierda anterior
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;observamos que:
 
@@ -384,7 +386,7 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
 
   ![](https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/saldo_grupo.png)
 
-  </div>  
+  </div>
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Se observa que los clientes con mayor saldo medio son los mayores, seguido por adultos y jovenes.
 
@@ -400,13 +402,16 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
 
   </div>
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;El principal perfil contratante para el grupo de adultos es aquel que no tiene deuda, no es propietario de inmueble    y no tiene
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prestamos. Observamos también un perfil similar que contrata, el que es propietario de un inmueble y no tiene ni       deuda ni
+  <br>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;El `principal perfil contratante` para el grupo de adultos es aquel que `no tiene deuda`, `no es propietario de inmueble` y `no`
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`tiene prestamos`. Observamos también un perfil similar que contrata, el que es propietario de un inmueble y no        tiene ni deuda ni
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prestamo.
   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En cuanto al trabajo observamos que los perfiles que más contratan son gerentes, técnicos, obreros y administrativos.
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En cuanto al `trabajo` observamos que los perfiles que `más contratan` son `gerentes, técnicos, obreros y administrativos`.
   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En referencia a la educación, principalmente tenemos perfiles con secundaria/superiores y universitarios entre los     que contratan.
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En referencia a la `educación`, principalmente tenemos perfiles con `secundaria/superiores y universitarios` entre     los que
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;contratan.
   
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por último analizamos a los clientes que participaron en la campaña anterior, de los que no contrataron ahora hay un   porcentaje que
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sí lo ha hecho. En cuanto a los que contrataron un deposito la última vez, ahora solo unos pocos no lo han vuelto a    contratar. Los
@@ -420,7 +425,9 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
   
   </div>
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Existe una correlación, aunque no fuerte, entre la duración de la última llamada y que contraten un depósito. Mayor    tiempo de
+  <br>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Existe una `correlación`, aunque no fuerte, entre la `duración de la última llamada` y que `contraten un depósito`.    Mayor tiempo de
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;duración se correlaciona con que se contrate un depósito.
 
   
@@ -432,13 +439,15 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
 
   </div>
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;El principal perfil contratante para el grupo de jovenes es aquel que no tiene deuda, no es propietario de inmueble    y no tiene
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prestamos.
+  <br>
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En cuanto al trabajo observamos que la mayor parte de los perfiles son estudiantes y obreros, siendo los que más       contratan los
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;estudiantes.
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;El `principal perfil contratante` para el grupo de jovenes es aquel que `no tiene deuda`, `no es propietario de inmueble` y `no`
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`tiene prestamos`.
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En cuanto al `trabajo` observamos que la mayor parte de los perfiles son `estudiantes y obreros`, siendo los que `más contratan`  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;los`estudiantes`.
   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En referencia a la educación, al igual que los adultos, tenemos perfiles con secundaria/superiores y universitarios    entre los que
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En referencia a la `educación`, al igual que los adultos, tenemos perfiles con `secundaria/superiores y universitarios` entre los que
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;contratan, quedando unos pocos con primaria que lo hacen.
   
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Observamos un diferencia significativa entre los que tienen inmuebles y los que no, siendo estos últimos los más       propensos a
@@ -455,9 +464,11 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
   
   </div>
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Al igual que antes existe una correlación entre la duración de la última llamada y que contraten un depósito. En       este grupo también
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;se observa una correlación negativa entre la vivienda y que contraten, traduciéndose en que menor vivienda tiene       mayor
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;probabilidad de contratación.
+  <br>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Al igual que antes existe una `correlación` entre la `duración de la última llamada` y que `contraten un depósito`.    En este grupo
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;también se observa una `correlación negativa` entre la `vivienda` y que `contraten`, traduciéndose en que menor        vivienda tiene
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mayor probabilidad de contratación.
 
   
   <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5.3.4.<ins><strong> Mayores </strong></ins></h4>
@@ -468,14 +479,16 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
 
   </div>
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por último tenemos el grupo de mayores, siendo en este el principal perfil contratante aquel que no tiene deuda, no    es propietario
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;de inmueble y no tiene prestamos.
+  <br>
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En cuanto al trabajo observamos que la gran parte de los perfiles son jubilados y algunos pocos gerentes, siendo los   que más
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;contratan los jubilados.
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por último tenemos el grupo de mayores, siendo en este el `principal perfil contratante` aquel que `no tiene deuda`,   `no es`
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`propietario de inmueble` y `no tiene prestamos`.
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En cuanto al `trabajo` observamos que la gran parte de los perfiles son `jubilados` y algunos pocos `gerentes`,        siendo los que `más`
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`contratan` los `jubilados`.
   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En referencia a la educación, cambia con respecto a los otros grupos, teniendo perfiles con secundaria/superiores,     primaria y en
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;menor número universitarios. En este grupo los tres perfiles educativos tienen tendencia a contratar depositos.
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En referencia a la `educación`, cambia con respecto a los otros grupos, teniendo `perfiles con secundaria/superiores, primaria` y en  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`menor número universitarios`. En este grupo los tres perfiles educativos tienen tendencia a contratar depositos.
   
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Observamos un diferencia significativa entre los que tienen inmuebles y los que no, siendo estos últimos los más       propensos a
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;contratar un deposito.
@@ -490,6 +503,8 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
   <img src="https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/corr_mayores.png" alt="correlacion mayores" width="82%">
   
   </div>
+
+  <br>
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En este grupo aparecen correlaciones positivas leves tales como:
 
@@ -591,17 +606,25 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
 
   <img src="https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/parametros_imp.png" alt="FI" width="80%">
   
-  </div> 
-  
-  <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.7.<ins><strong> Resultados y Conclusiones </strong></ins></h3>
+  </div>
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tras probar nuestro modelo entrenado en los datos de test se obtiene el siguiente rendimiento para un threshold de 0.85:
+  </details>
+  
+
+  <details close>
+  <summary>
+    <h2><ins><strong> 7. Resultados y Conclusiones </strong></ins></h2>
+  </summary>
+    
+  Tras probar nuestro modelo entrenado en los datos de test se obtiene el siguiente rendimiento para un threshold de 0.85:
 
   <div align="center">
 
   <img src="https://github.com/UrkoRegueiro/Prediccion-contratacion-depositos/blob/master/utiles/imagenes/resultados_finales.png" alt="resultados" width="85%">
   
   </div>
+
+  <br>
 
   <div align="center">
   
@@ -611,28 +634,21 @@ Para visualizar la versión detallada del presente proyecto véase: <br>
 
   </div>
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En el caso que nos ocupa la métrica de interés es el recall. Esto se debe a que necesitamos captar la mayor cantidad de clientes que
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;contraten un deposito sacrificando precisión, es decir, que si no estamos seguros al 85% de que un cliente no va a contratar lo
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;clasificaremos como Éxito.
+  <br>
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En la matriz de confusión observamos que se han predicho 420 verdaderos positivos y 83 falsos negativos, obteniendo por tanto un
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;83.5% de recall.
-
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por último notar que nuestro modelo ha logrado aprender ya que predice mejor que un modelo de prueba, es decir, si ponemos el
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;threshold a 0.5 obtenemos un accuracy del 91% superando al modelo de prueba que sería de un 88%.
-
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para llevar esta solución a producción sería necesario integrar en el sistema de la entidad bancaria el flujo de transformación de datos
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;para la predicción. Esto se podría hacer en tiempo real conectado con la base de datos de clientes y transformando los datos obtenidos.
-
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;También sería necesario:
+  En el caso que nos ocupa `la métrica de interés es el recall`. Esto se debe a que necesitamos captar la mayor cantidad de clientes que contraten un deposito sacrificando precisión, es decir, que si no estamos seguros     al 85% de que un cliente no va a contratar lo clasificaremos como Éxito.
   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·Un monitoreo del rendimiento del modelo por si fallase en algún momento.<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·Actualizar el modelo con cada campaña realizada.<br>
-
+  En la matriz de confusión observamos que se han predicho 420 verdaderos positivos y 83 falsos negativos, obteniendo por tanto un `83.5% de recall`.
   
-
+  Por último notar que nuestro modelo ha logrado aprender ya que predice mejor que un modelo de prueba, es decir, si ponemos el threshold a 0.5 obtenemos un accuracy del 91% superando al modelo de prueba que sería de un    88%.
   
-</details>
-
+  Para llevar esta solución a producción sería necesario integrar en el sistema de la entidad bancaria el flujo de transformación de datos para la predicción. Esto se podría hacer en tiempo real conectado con la base de    datos de clientes y transformando los datos obtenidos.
+  
+  También sería necesario:
+  
+  - Un monitoreo del rendimiento del modelo por si fallase en algún momento.
+  - Actualizar el modelo con cada campaña realizada.<br>
+  
+  </details>
 
 <h1 align="center"></h1>
