@@ -44,13 +44,13 @@ Para visualizar el código implementado en el proyecto véase la versión comple
 
   El conjunto de datos está relacionado con una campaña telefónica que realizó una entidad bancaria.
 
-  <u>**OBJETIVOS**</u>:
+  `OBJETIVOS`:
 
-  - Realizar un <u>**análisis exploratorio**</u> sobre los diferentes <u>**tipos de clientes**</u>.
+  - Realizar un `análisis exploratorio` sobre los diferentes `tipos de clientes`.
 
-  - <u>**Predecir que clientes**</u> del conjunto de datos <u>**contratarán**</u> o no un depósito.
+  - `Predecir que clientes` del conjunto de datos `contratarán` o no un depósito.
 
-  - <u>**Explicación**</u> de los <u>**resultados**</u> obtenidos.
+  - `Explicación` de los `resultados` obtenidos.
 
   - ¿Cómo se llevaría la solución desarrollada a producción y qué consideraciones se tendrían en cuenta?
   
